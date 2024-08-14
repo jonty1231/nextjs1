@@ -44,11 +44,11 @@ const [homeAdd,setHomeAdd]=useState(false)
 
 
 <div className={`  relative bg-[#91919f7a]   ${homeAdd?"scale-100 h-screen w-screen":"scale-0"} origin-bottom md:origin-left duration-300 `}> <Link href="/income" onClick={()=>setHomeAdd(!homeAdd)}>
- <Image  src={incomeSvg} alt='income' className='absolute bottom-[18.5%] left-1/4 translate-y-1/3 translate-x-1/3 md:left-[7%] md:top-[30%] '  /></Link>
+ <Image  src={incomeSvg} alt='income' className='absolute bottom-[20%] left-1/4 translate-y-1/3 translate-x-1/3 md:left-[7%] md:top-[30%] '  /></Link>
  <Link href="/transfer" onClick={()=>setHomeAdd(!homeAdd)}>
  <Image  src={transaction2Svg} alt='trans'  className='absolute bottom-[30%] left-1/2 -translate-x-1/3 translate-y-1/2 md:left-[16%] md:bottom-[45%] md:translate-y-[2px]'/></Link>
  <Link href="/expense" onClick={()=>setHomeAdd(!homeAdd)}>
- <Image  src={expanceSvg} alt='expance'  className='absolute bottom-[18.5%] right-1/4 translate-y-1/3 md:left-[8.5%] md:bottom-[35%]'/></Link>
+ <Image  src={expanceSvg} alt='expance'  className='absolute bottom-[20%] right-1/4 translate-y-1/3 md:left-[8.5%] md:bottom-[35%]'/></Link>
 
 </div>
 
